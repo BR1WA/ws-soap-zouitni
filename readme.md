@@ -104,7 +104,7 @@ ws-soap-zouitni/
 
 ## 📚 Technologies Used
 
-* Java 17+
+* Java 22
 * Jakarta JAX-WS
 * IntelliJ IDEA
 * SOAP UI
@@ -117,7 +117,3 @@ ws-soap-zouitni/
 GitHub: [@BR1WA](https://github.com/BR1WA)
 
 ---
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
