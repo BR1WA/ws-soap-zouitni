@@ -1,4 +1,4 @@
-package server;
+
 
 import jakarta.xml.ws.Endpoint;
 import ws.BanqueService;
