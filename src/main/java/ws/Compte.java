@@ -1,13 +1,14 @@
 package ws;
 
 import java.time.LocalDate;
+import java.util.Date;
 
 public class Compte {
     private int code;
     private double solde;
-    private LocalDate dateCreation;
+    private Date dateCreation;
 
-    public Compte(int code, double solde, LocalDate dateCreation) {
+    public Compte(int code, double solde, Date dateCreation) {
         this.code = code;
         this.solde = solde;
         this.dateCreation = dateCreation;
@@ -24,7 +25,7 @@ public class Compte {
         return solde;
     }
 
-    public LocalDate getDateCreation() {
+    public Date getDateCreation() {
         return dateCreation;
     }
 
@@ -36,7 +37,7 @@ public class Compte {
         this.solde = solde;
     }
 
-    public void setDateCreation(LocalDate dateCreation) {
+    public void setDateCreation(Date dateCreation) {
         this.dateCreation = dateCreation;
     }
 }
